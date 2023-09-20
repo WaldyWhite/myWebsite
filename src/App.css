@@ -1,0 +1,297 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+body {
+    position: relative;
+    background-image: url(../public/img/wepik-export-20230918153831IuZR.png);
+}
+
+.h1 {
+    text-align: center;
+}
+.container {
+    padding: 0 20px;
+    margin:0 100px 0  100px;
+}
+
+.nav {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    background:rgba(36, 36, 36, 1);
+}
+
+.nav_content {
+    margin:0 300px 0  300px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_list {
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 150px 0 auto;
+}
+
+.link{
+    color:rgb(244,245,246,0.6);
+    letter-spacing: 2px;
+}
+
+.link:hover {
+    color:rgb(244,245,246);
+}
+
+.nav-button {
+    width: 120px;
+    height: 30px;
+}
+
+.btn {
+    width: 120px;
+    height: 30px;
+    color:rgb(36,36,36,0.9);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(255,122,63);
+}
+
+.btn:hover {
+    width: 118px;
+    height: 29px;
+    opacity: 0.9;
+}
+
+.main {
+    width: 100%;
+    height: 90vh;
+}
+
+.main_topcontainer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.right_container {
+    padding: 20px;
+    width: 40%;
+}
+
+.greetings {
+    width: 7vw;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    border: solid rgb(128, 128, 128) 1px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.right_container {
+    padding-top: 150px;
+ }
+
+.first-title{
+    font-size: 2rem;
+    color: rgb(255,122,63);
+    font-family:'Segoe Print','MV Boli', Arial, sans-serif;
+}
+
+.second-title {
+    font-size: 2rem;
+    font-family:'Segoe Print','MV Boli', Arial, sans-serif;
+}
+
+.title-description {
+    font-size: 14px;
+}
+.asks {
+    font-size: 1rem;;
+}
+
+.left_container {
+    margin-top: 50px;
+    width: 700px;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image:url(/public/img/pngwing.com.png) ;
+}
+
+.main_service {
+    width: 100%;
+    padding-bottom: 50px;
+    border-radius: 70px;
+    background-color: rgba(36, 36, 36, 1);
+}
+
+.my {
+    color: aliceblue;
+}
+
+.secontword {
+    color: #ae4017;
+    font-size: 32px;
+    font-family: 'Constantia', Arial, sans-serif;
+}
+
+.top-descripton  {
+    padding: 150px 75px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titles, .my {
+    font-size: 32px;
+    font-family: 'Constantia', Arial, sans-serif;
+}
+.titles {
+    grid-column: 1;
+}
+
+.description {
+    grid-column: 2;
+}
+
+.gray-line {
+    width: 100%;
+    height: 2px;
+    background-color: rgb(128, 128, 128);
+}
+
+.cards {
+    padding: 0;
+    margin-left: 0;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-item:nth-child(3n+2){
+    background-color:rgb(255,122,63);
+}
+
+.card-item {
+    position: relative;
+    width: 350px;
+    height: 450px;
+    border-radius: 50px;
+    background-color: rgb(56, 56, 56);
+}
+
+.card-title {
+    margin-left: 0px;
+    display: flex;      
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 50px 0px 50px;
+}
+
+.title-title p{
+    color: rgb(183, 81, 8);
+    font-family: 'Constantia', Arial, sans-serif;
+    font-size: 28px;
+}
+
+.card-item:nth-child(3n+2) .title-title p{
+    color:rgb(240, 248, 255,0.8);
+    font-family: 'Constantia', Arial, sans-serif;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: -6px;
+}
+
+.circle {
+    margin-top: 20px;
+    margin-right: 0;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: rgb(128,128,128);
+    transform: rotate(-45deg);
+}
+
+.card-item:nth-child(3n+2) .circle {
+    margin-top: 16px;
+    width: 50px;
+    height: 50px;
+}
+
+.circle img {
+    margin-top: 4px;
+    margin-left: 2px;
+    width: 43px;
+    height: 43px;
+}
+
+.card-image {
+    width:325px;
+    margin: 0 auto;
+}
+
+
+.card-img {
+    margin-top: 39px;
+    border-radius: 40px;
+    width:325px;
+    height: 210px;
+}
+
+.card-description {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.workprocess {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 85px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.card {
+    width: 200px;
+    height: 100px;
+}
+
+.card-icon {
+    margin-top: 50px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.card-text {
+    color: rgb(36,36,36);
+    font-weight: bold;
+    font-size: 18px;
+}
+.card-description {
+    color: rgb(36,36,36);
+
+}
+
